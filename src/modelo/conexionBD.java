@@ -1,21 +1,12 @@
 package modelo;
-    import java.sql.Connection;
-    import java.sql.DriverManager;
-    import java.sql.SQLException;
-
-<<<<<<< Updated upstream
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-=======
->>>>>>> Stashed changes
 
 public class conexionBD {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
     private static final String URL = "jdbc:postgresql://localhost:5432/hotel";
     private static final String USER = "postgres";
@@ -67,55 +58,4 @@ public class conexionBD {
             System.err.println("Error creating tables: " + e.getMessage());
         }
     }
-=======
-=======
->>>>>>> Stashed changes
-     public static Connection conexion;
-
-    public static Connection getConexion() {
-        if (conexion ==null){
-            getInstance();
-        }
-        return conexion;
-    }
-
-    private conexionBD() {
-
-        try {
-            String driverBD = "org.postgresql.Driver";
-            String urlBD = "jdbc:postgresql://localhost:12164/java";
-            String usuarioBD = "admin";
-            String claveBD = "WINNY5331";
-            Class.forName(driverBD);
-            conexion = DriverManager.getConnection(urlBD, usuarioBD, claveBD);
-        } catch (ClassNotFoundException ex) {
-            System.err.println("No encuentro Driver:" + ex.getMessage());
-        } catch (SQLException ex) {
-            System.err.println("error al conectarme:"+ex.getMessage());
-
-        }
-    }
-
-    public static void desconectar() {
-        try {
-            conexion.close();
-        } catch (SQLException ex) {
-            System.err.println("Error al desconectarse:" + ex.getMessage());
-        }
-    }
-
-    public static conexionBD getInstance() {
-        return ConexionBDHolder.INSTANCE;
-    }
-
-    private static class ConexionBDHolder {
-
-        private static final conexionBD INSTANCE = new conexionBD();
-    }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
-    
-
