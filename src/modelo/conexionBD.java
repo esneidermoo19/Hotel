@@ -3,14 +3,18 @@ package modelo;
     import java.sql.DriverManager;
     import java.sql.SQLException;
 
+<<<<<<< Updated upstream
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+=======
+>>>>>>> Stashed changes
 
 public class conexionBD {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
     private static final String URL = "jdbc:postgresql://localhost:5432/hotel";
@@ -64,6 +68,8 @@ public class conexionBD {
         }
     }
 =======
+=======
+>>>>>>> Stashed changes
      public static Connection conexion;
 
     public static Connection getConexion() {
@@ -106,6 +112,9 @@ public class conexionBD {
 
         private static final conexionBD INSTANCE = new conexionBD();
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
     
