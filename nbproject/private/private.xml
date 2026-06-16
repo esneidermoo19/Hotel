@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/modelo/conexionBD.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/controlador/Habitacioncontrolador.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/Habitacionvista.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/modelo/Habitacionmodelo.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/modelo/Reservacion.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/controlador/Reservacioncontrolador.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/Reservacionvista.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/Loginvista.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/controlador/Logincontrolador.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/main/ArrancarClientes.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/imagenes/doble2.jpg</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/imagenes/default_suite.png</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/EmpleadoPanelvista.java</file>
+            <file>file:/C:/Users/moren/OneDrive/Documentos/NetBeansProjects/Hotel/src/vista/AdminPanelvista.java</file>
+        </group>
+    </open-files>
 </project-private>

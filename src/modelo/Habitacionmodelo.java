@@ -1,24 +1,36 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Singleton.java to edit this template
- */
 package modelo;
 
-/**
- *
- * @author moren
- */
 public class Habitacionmodelo {
-    
-    private Habitacionmodelo() {
-    }
-    
-    public static Habitacionmodelo getInstance() {
-        return habitacionHolder.INSTANCE;
-    }
-    
-    private static class habitacionHolder {
 
-        private static final Habitacionmodelo INSTANCE = new Habitacionmodelo();
+    private String nombre;
+    private String descripcion;
+    private String precio;
+    private String tipo;
+    private String imagen;
+
+    public Habitacionmodelo() {
     }
+
+    public Habitacionmodelo(String nombre, String descripcion, String precio, String tipo, String imagen) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.tipo = tipo;
+        this.imagen = imagen;
+    }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getDescripcion() { return descripcion; }
+    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+
+    public String getPrecio() { return precio; }
+    public void setPrecio(String precio) { this.precio = precio; }
+
+    public String getTipo() { return tipo; }
+    public void setTipo(String tipo) { this.tipo = tipo; }
+
+    public String getImagen() { return imagen; }
+    public void setImagen(String imagen) { this.imagen = imagen; }
 }
