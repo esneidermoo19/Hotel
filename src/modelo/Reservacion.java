@@ -1,6 +1,6 @@
 package modelo;
 
-public class Reservacion {
+    public class Reservacion {
 
     private int id;
     private String habitacion;

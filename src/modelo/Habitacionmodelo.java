@@ -7,8 +7,10 @@ public class Habitacionmodelo {
     private String precio;
     private String tipo;
     private String imagen;
+    private String estado;
 
     public Habitacionmodelo() {
+        this.estado = "Disponible";
     }
 
     public Habitacionmodelo(String nombre, String descripcion, String precio, String tipo, String imagen) {
@@ -17,6 +19,16 @@ public class Habitacionmodelo {
         this.precio = precio;
         this.tipo = tipo;
         this.imagen = imagen;
+        this.estado = "Disponible";
+    }
+
+    public Habitacionmodelo(String nombre, String descripcion, String precio, String tipo, String imagen, String estado) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.tipo = tipo;
+        this.imagen = imagen;
+        this.estado = estado;
     }
 
     public String getNombre() { return nombre; }
@@ -33,4 +45,7 @@ public class Habitacionmodelo {
 
     public String getImagen() { return imagen; }
     public void setImagen(String imagen) { this.imagen = imagen; }
+
+    public String getEstado() { return estado; }
+    public void setEstado(String estado) { this.estado = estado; }
 }
